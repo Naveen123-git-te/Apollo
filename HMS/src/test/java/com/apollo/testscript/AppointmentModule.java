@@ -7,6 +7,7 @@ public class AppointmentModule {
 	@Test
 public void requestAppointment() {
 	Reporter.log("requestAppointment",true);
+	System.out.println("requestAppointment has been passed");
 }
 	@Test
 public void cancelAppointment() {
