@@ -8,4 +8,8 @@ public class AppointmentModule {
 public void requestAppointment() {
 	Reporter.log("requestAppointment",true);
 }
+	@Test
+public void cancelAppointment() {
+	Reporter.log("cancelAppointment",true);
+}
 }
